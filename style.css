@@ -23,6 +23,11 @@ body{
     flex-direction: column;
 }
 
+a{
+    color: var(--purple);
+    text-decoration: none;
+}
+
 .conteiner{
     margin: 0 auto;
     width: 400px;
@@ -45,7 +50,6 @@ body{
 }
 
 .links a{
-    text-decoration: none;
     font-weight: 600;
     width: 280px;
     height: 40px;
@@ -53,7 +57,6 @@ body{
     margin: 10px;
     padding-top: 7px;
     border-radius: 5px;
-    color: var(--purple);
 }
 
 .links{
@@ -61,12 +64,17 @@ body{
     padding: 10px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .icons img{
     margin: 5px;
 }
 
-.icons a{
-    text-decoration: none;
+a:hover{
+    transform: scale(1.2);
+}
+
+.icons img:hover{
+    transform: scale(1.4);
 }
