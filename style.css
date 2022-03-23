@@ -78,3 +78,7 @@ a:hover{
 .icons img:hover{
     transform: scale(1.4);
 }
+
+footer{
+    padding: 5px;
+}
